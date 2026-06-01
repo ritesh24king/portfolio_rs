@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore Ritesh Sewratan's projects and work experience as a Linux Engineer, including eGov mail migrations and CSweb application deployments.">
+  <title>Projects & Experience | Ritesh Sewratan</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/work.css">
+  <script src="./js/main.js" defer></script>
+  <script src="./js/work.js" defer></script>
+</head>
+<body>
+
+  <!-- Global Header -->
+  <header class="header" id="global-header">
+    <div class="container">
+      <a href="./index.html" class="logo" id="logo-link">Ritesh<span>.sr</span></a>
+      <nav class="navbar" id="main-nav">
+        <ul class="nav-links" id="nav-links-list">
+          <li><a href="./index.html" class="nav-link" id="nav-home">Home</a></li>
+          <li><a href="./about.html" class="nav-link" id="nav-about">About</a></li>
+          <li><a href="./work.html" class="nav-link active" id="nav-work">Work</a></li>
+          <li><a href="./contact.html" class="nav-link" id="nav-contact">Contact</a></li>
+        </ul>
+        <button class="mobile-toggle" aria-label="Toggle Menu" id="mobile-menu-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Work Experience Section -->
+  <section class="section" id="work-experience">
+    <div class="container">
+      <h2 id="experience-heading">Professional Experience</h2>
+      
+      <div class="experience-list" id="experience-cards-container">
+        
+        <!-- Datacenter IT Card -->
+        <div class="experience-card fade-in-up" id="exp-datacenter">
+          <div class="experience-header" id="exp-datacenter-hdr">
+            <div class="experience-title-area">
+              <h3>Linux & Application Engineer</h3>
+              <div class="experience-company">Datacenter IT <span>(Commercial and certified datacenter in Suriname)</span></div>
+            </div>
+            <span class="experience-date">Full Lifecycle Operations</span>
+          </div>
+          
+          <div class="experience-responsibilities" id="exp-datacenter-resp">
+            <h4>Key Responsibilities</h4>
+            <ul>
+              <li>Managed enterprise-grade Linux servers and host-based business applications across their entire lifecycle.</li>
+              <li>Executed software patches, security upgrades, host configurations, and strict change management protocols.</li>
+              <li>Analyzed and resolved system incidents, executing root-cause diagnostics and detailed post-incident reviews.</li>
+              <li>Leveraged Wireshark and Nmap for network diagnostics, package inspection, and troubleshooting.</li>
+              <li>Deployed and maintained uptime monitoring tools to guarantee server and application performance metrics.</li>
+              <li>Collaborated with ICT teams, external clients, and stakeholders on implementation strategies.</li>
+              <li>Drafted procedural logs, configuration records, and system changes for engineering archives.</li>
+            </ul>
+          </div>
+
+          <div class="experience-achievements" id="exp-datacenter-ach">
+            <h4>Key Achievements</h4>
+            <ul>
+              <li>Enhanced the overall availability, security, and stability of application hosting servers.</li>
+              <li>Reduced frequency of recurring infrastructure incidents through configuration hardening and telemetry alarms.</li>
+              <li>Delivered migration and server projects successfully on schedule with zero customer service interruptions.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Spangmakandra Card -->
+        <div class="experience-card fade-in-up" id="exp-spangmakandra">
+          <div class="experience-header" id="exp-spangmakandra-hdr">
+            <div class="experience-title-area">
+              <h3>Helpdesk Support Technician</h3>
+              <div class="experience-company">Spangmakandra</div>
+            </div>
+            <span class="experience-date">First-Line Support</span>
+          </div>
+          <div class="experience-responsibilities" id="exp-spangmakandra-resp">
+            <h4>Key Responsibilities</h4>
+            <ul>
+              <li>Responsible for logging, troubleshooting, and resolving first-line technical support queries for clients.</li>
+              <li>Assisted users with local area network setups, operating systems, and client mail configuration parameters.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Showcase Section -->
+  <section class="section" id="projects-showcase">
+    <div class="container">
+      <h2>Major Projects</h2>
+      <p id="projects-subtitle">Use the controls below to filter Ritesh's projects by system role.</p>
+
+      <!-- Category Filter Navigation -->
+      <div class="filter-container" id="project-filters">
+        <button class="filter-btn active" data-filter="all" id="filter-all">All Projects</button>
+        <button class="filter-btn" data-filter="systems" id="filter-systems">Systems & OS</button>
+        <button class="filter-btn" data-filter="networking" id="filter-networking">Networking & Security</button>
+        <button class="filter-btn" data-filter="management" id="filter-management">Project Coordination</button>
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="projects-grid" id="projects-grid">
+        
+        <!-- Project 1: eGov Migration -->
+        <div class="project-card" data-categories="systems networking management" id="project-egov">
+          <div class="project-img-wrapper">
+            <img src="./img/project-egov-migration.png" alt="eGov Mail Platform Migration" id="project-egov-img">
+            <div class="project-overlay">
+              <span class="project-role-badge">Project Coordinator</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>eGov Mail Platform Migration</h3>
+            <p class="project-desc">
+              Coordinated a critical migration from a cPanel shared hosting configuration to a custom-built government mail platform. Met security objectives while maintaining high-availability mail flows for government personnel.
+            </p>
+            <ul class="project-responsibilities-list" id="project-egov-tasks">
+              <li>Managed coordination between technical developers and corporate/government stakeholders.</li>
+              <li>Executed verification processes, validation checks, and post-delivery operations.</li>
+              <li>Supplied command-line support using SSH terminals to diagnose routing and account issues.</li>
+              <li>Ensured mail service continuity with minimal user downtime during transition periods.</li>
+            </ul>
+            <div class="project-tech" id="project-egov-tags">
+              <span class="badge linux">Linux</span>
+              <span class="badge">cPanel</span>
+              <span class="badge networking">DNS Management</span>
+              <span class="badge security">SSH CLI</span>
+              <span class="badge cloud">Mail Platforms</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: CSweb Application -->
+        <div class="project-card" data-categories="systems management" id="project-csweb">
+          <div class="project-img-wrapper">
+            <img src="./img/project-csweb-app.png" alt="CSweb Application Implementation" id="project-csweb-img">
+            <div class="project-overlay">
+              <span class="project-role-badge">Coordinator & Implementer</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>CSweb Application Implementation</h3>
+            <p class="project-desc">
+              Led the implementation and system configuration of the CSweb application for the General Bureau of Statistics (ABS). Translated functional statistics requirements into active server settings.
+            </p>
+            <ul class="project-responsibilities-list" id="project-csweb-tasks">
+              <li>Created scheduling tracks, project milestones, and coordinate task distributions.</li>
+              <li>Configured and hardened the server application layer to fulfill statistics workflows.</li>
+              <li>Resolved technical bugs during deployment, stabilization, and initial runtimes.</li>
+              <li>Collaborated closely with statistical administrators and operational end-users.</li>
+            </ul>
+            <div class="project-tech" id="project-csweb-tags">
+              <span class="badge linux">Linux Server</span>
+              <span class="badge automation">CSweb software</span>
+              <span class="badge">App Config</span>
+              <span class="badge cloud">Data Processing</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Global Footer -->
+  <footer class="footer" id="global-footer">
+    <div class="container footer-content">
+      <div class="footer-logo" id="footer-logo-brand">Ritesh<span>.sr</span></div>
+      <div class="footer-socials" id="footer-socials-list">
+        <a href="mailto:sewratanritesh6@gmail.com" class="footer-social-link" title="Email" id="footer-email-link">📧</a>
+        <a href="tel:+5978805892" class="footer-social-link" title="Phone" id="footer-phone-link">📞</a>
+        <a href="#" class="footer-social-link" title="LinkedIn" id="footer-linkedin-link">🔗</a>
+        <a href="#" class="footer-social-link" title="GitHub" id="footer-github-link">💻</a>
+      </div>
+      <div class="footer-copy" id="footer-copyright-text">
+        &copy; 2026 Ritesh Sewratan. Deployed via GitHub Pages. Paramaribo, Suriname.
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn more about Ritesh Sewratan, Linux & Application Engineer. Education timeline, certifications (LPI, CEH), academic background at UNASAT, and interests.">
+  <title>About Me | Ritesh Sewratan</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/about.css">
+  <script src="./js/main.js" defer></script>
+  <script src="./js/about.js" defer></script>
+</head>
+<body>
+
+  <!-- Global Header -->
+  <header class="header" id="global-header">
+    <div class="container">
+      <a href="./index.html" class="logo" id="logo-link">Ritesh<span>.sr</span></a>
+      <nav class="navbar" id="main-nav">
+        <ul class="nav-links" id="nav-links-list">
+          <li><a href="./index.html" class="nav-link" id="nav-home">Home</a></li>
+          <li><a href="./about.html" class="nav-link active" id="nav-about">About</a></li>
+          <li><a href="./work.html" class="nav-link" id="nav-work">Work</a></li>
+          <li><a href="./contact.html" class="nav-link" id="nav-contact">Contact</a></li>
+        </ul>
+        <button class="mobile-toggle" aria-label="Toggle Menu" id="mobile-menu-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="section" id="about-intro">
+    <div class="container">
+      <h2 id="about-heading">About Me</h2>
+      
+      <div class="profile-section" id="profile-grid">
+        <!-- Profile Card -->
+        <div class="profile-card" id="profile-sidebar">
+          <div class="profile-img-container" id="profile-img-frame">
+            <img src="./img/profile-ritesh.png" alt="Ritesh Sewratan" id="profile-avatar">
+          </div>
+          <h3 id="profile-name">Ritesh Sewratan</h3>
+          <div class="profile-title" id="profile-role">Linux Engineer</div>
+          
+          <ul class="profile-details-list" id="profile-details-list">
+            <li class="profile-details-item">
+              <span class="profile-details-label">Full Name:</span>
+              <span class="profile-details-val">Sewratan Ritesh S.</span>
+            </li>
+            <li class="profile-details-item">
+              <span class="profile-details-label">Born:</span>
+              <span class="profile-details-val">February 11, 2002</span>
+            </li>
+            <li class="profile-details-item">
+              <span class="profile-details-label">Location:</span>
+              <span class="profile-details-val">Paramaribo, SR</span>
+            </li>
+            <li class="profile-details-item">
+              <span class="profile-details-label">Nationality:</span>
+              <span class="profile-details-val">Surinamese</span>
+            </li>
+            <li class="profile-details-item">
+              <span class="profile-details-label">Licence:</span>
+              <span class="profile-details-val">B-E Category</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Biography and Stats -->
+        <div class="profile-bio" id="profile-biography">
+          <h3>Professional Profile</h3>
+          <p>
+            I am a highly motivated Linux and Application Engineer with practical experience gained at the sole commercial, certified datacenter in Suriname. My daily operations consist of configuring, securing, and maintaining hosting servers, configuring DNS zones, implementing SSL certificates, and managing Apache and Nginx web servers.
+          </p>
+          <p>
+            In addition to Linux systems administration (managing Red Hat, CentOS, Debian, AlmaLinux, Rocky Linux, Kali Linux, and Ubuntu), I possess solid skills in project management and coordination. I coordinate and lead application rollouts and server migrations, aligning tasks across stakeholder departments to ensure timely execution with minimal system downtime.
+          </p>
+          <p>
+            I am a proactive learner who rapidly absorbs new operating environments, shell scripting mechanisms, and software tools. My goal is to continually improve infrastructure availability, security boundaries, and operational stability.
+          </p>
+
+          <!-- Quick Metrics Grid -->
+          <div class="bio-stats" id="bio-stats-grid">
+            <div class="bio-stat-card" id="stat-linux">
+              <div class="bio-stat-num">7+</div>
+              <div class="bio-stat-label">Distros Managed</div>
+            </div>
+            <div class="bio-stat-card" id="stat-certs">
+              <div class="bio-stat-num">2</div>
+              <div class="bio-stat-label">Certs & Degrees</div>
+            </div>
+            <div class="bio-stat-card" id="stat-projects">
+              <div class="bio-stat-num">2</div>
+              <div class="bio-stat-label">Major Rollouts</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Languages and Hobbies Row -->
+      <div class="about-extra-grid" id="about-extracurricular">
+        <!-- Languages column -->
+        <div class="languages-container" id="languages-box">
+          <h3>Languages</h3>
+          <p>Fluent in written and spoken communication across international teams.</p>
+          
+          <div class="language-item" id="lang-dutch">
+            <div class="language-info">
+              <span class="language-name">Dutch</span>
+              <span class="language-level">Native / Fluent (100%)</span>
+            </div>
+            <div class="progress-bar-bg">
+              <div class="progress-bar-fill" data-width="100%" id="bar-dutch"></div>
+            </div>
+          </div>
+
+          <div class="language-item" id="lang-english">
+            <div class="language-info">
+              <span class="language-name">English</span>
+              <span class="language-level">Professional / Fluent (95%)</span>
+            </div>
+            <div class="progress-bar-bg">
+              <div class="progress-bar-fill" data-width="95%" id="bar-english"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hobbies column -->
+        <div id="hobbies-box">
+          <h3>Hobbies & Interests</h3>
+          <p>Activities that keep me focused, energized, and growing outside working hours.</p>
+          <div class="hobbies-grid" id="hobbies-list">
+            <div class="hobby-card" id="hobby-fitness">
+              <span class="hobby-icon">💪</span>
+              <div class="hobby-title">Fitness</div>
+            </div>
+            <div class="hobby-card" id="hobby-explore">
+              <span class="hobby-icon">🏕️</span>
+              <div class="hobby-title">Adventure</div>
+            </div>
+            <div class="hobby-card" id="hobby-growth">
+              <span class="hobby-icon">📚</span>
+              <div class="hobby-title">Self Development</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="section" id="education">
+    <div class="container">
+      <h2>Education & Certifications</h2>
+      
+      <div class="timeline-container" id="education-timeline">
+        
+        <!-- CEH Certification -->
+        <div class="timeline-item fade-in-up" id="edu-ceh">
+          <div class="timeline-dot in-progress"></div>
+          <span class="timeline-date">In Progress (Expected Completion: June 2026)</span>
+          <div class="timeline-content">
+            <h3>Certified Ethical Hacker (CEH)</h3>
+            <div class="timeline-subtitle">EC-Council</div>
+            <p>Undergoing professional security training focusing on vulnerability assessment, penetration testing methodologies, scanning networks, and malware threat counter-activities.</p>
+          </div>
+        </div>
+
+        <!-- UNASAT Bachelor -->
+        <div class="timeline-item fade-in-up" id="edu-unasat-bachelor">
+          <div class="timeline-dot in-progress"></div>
+          <span class="timeline-date">2025 – 2029 (In Progress)</span>
+          <div class="timeline-content">
+            <h3>Bachelor's Degree in System Network Engineering (SNE)</h3>
+            <div class="timeline-subtitle">University of Applied Science and Technology (UNASAT)</div>
+            <p>Advanced studies in engineering secure routing grids, cloud orchestration, enterprise server cluster configurations, infrastructure performance architecture, and cryptographic protocols.</p>
+          </div>
+        </div>
+
+        <!-- UNASAT Associate -->
+        <div class="timeline-item fade-in-up" id="edu-unasat-associate">
+          <div class="timeline-dot"></div>
+          <span class="timeline-date">Graduated 2025</span>
+          <div class="timeline-content">
+            <h3>Associate Degree in Cloud Networking Security (CNS)</h3>
+            <div class="timeline-subtitle">University of Applied Science and Technology (UNASAT)</div>
+            <p>Focused on firewalls, network design policies, secure cloud environment layouts, backup procedures, intrusion detection systems, and virtualization layers.</p>
+          </div>
+        </div>
+
+        <!-- LPI Certificate -->
+        <div class="timeline-item fade-in-up" id="edu-lpi">
+          <div class="timeline-dot"></div>
+          <span class="timeline-date">January 10, 2024</span>
+          <div class="timeline-content">
+            <h3>Linux Professional Institute (LPI) Certification</h3>
+            <div class="timeline-subtitle">Linux Professional Institute</div>
+            <p>Obtained professional certification proving proficiency in command line utilities, system architecture, GNU/Unix controls, device nodes, administrative access configurations, and network setups.</p>
+          </div>
+        </div>
+
+        <!-- SG Kwatta VWO -->
+        <div class="timeline-item fade-in-up" id="edu-vwo">
+          <div class="timeline-dot"></div>
+          <span class="timeline-date">Graduated 2021</span>
+          <div class="timeline-content">
+            <h3>High School Diploma (VWO)</h3>
+            <div class="timeline-subtitle">Scholen Gemeenschap Kwatta</div>
+            <p>Graduated with a focus on profile Q2, building strong analytical skills in mathematics, physics, and general science.</p>
+          </div>
+        </div>
+
+        <!-- RD Simmons Mulo-B -->
+        <div class="timeline-item fade-in-up" id="edu-mulo">
+          <div class="timeline-dot"></div>
+          <span class="timeline-date">Graduated 2018</span>
+          <div class="timeline-content">
+            <h3>Mulo-B Diploma</h3>
+            <div class="timeline-subtitle">RD Simmons School</div>
+            <p>Early foundations in science and mathematics (Mulo-B track).</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Global Footer -->
+  <footer class="footer" id="global-footer">
+    <div class="container footer-content">
+      <div class="footer-logo" id="footer-logo-brand">Ritesh<span>.sr</span></div>
+      <div class="footer-socials" id="footer-socials-list">
+        <a href="mailto:sewratanritesh6@gmail.com" class="footer-social-link" title="Email" id="footer-email-link">📧</a>
+        <a href="tel:+5978805892" class="footer-social-link" title="Phone" id="footer-phone-link">📞</a>
+        <a href="#" class="footer-social-link" title="LinkedIn" id="footer-linkedin-link">🔗</a>
+        <a href="#" class="footer-social-link" title="GitHub" id="footer-github-link">💻</a>
+      </div>
+      <div class="footer-copy" id="footer-copyright-text">
+        &copy; 2026 Ritesh Sewratan. Deployed via GitHub Pages. Paramaribo, Suriname.
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

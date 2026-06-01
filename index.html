@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Ritesh Sewratan, motivated Linux Engineer and System Network Engineering student with experience in datacenter IT, cPanel, and network configuration.">
+  <title>Ritesh Sewratan | Linux Engineer</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <script src="./js/main.js" defer></script>
+</head>
+<body>
+
+  <!-- Global Header -->
+  <header class="header" id="global-header">
+    <div class="container">
+      <a href="./index.html" class="logo" id="logo-link">Ritesh<span>.sr</span></a>
+      <nav class="navbar" id="main-nav">
+        <ul class="nav-links" id="nav-links-list">
+          <li><a href="./index.html" class="nav-link active" id="nav-home">Home</a></li>
+          <li><a href="./about.html" class="nav-link" id="nav-about">About</a></li>
+          <li><a href="./work.html" class="nav-link" id="nav-work">Work</a></li>
+          <li><a href="./contact.html" class="nav-link" id="nav-contact">Contact</a></li>
+        </ul>
+        <button class="mobile-toggle" aria-label="Toggle Menu" id="mobile-menu-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="section hero-section" id="hero">
+    <div class="container grid-2">
+      <div class="hero-content fade-in-up active">
+        <div class="badge linux" id="hero-badge">🐧 Linux Engineer</div>
+        <h1 id="hero-title">Ritesh Sewratan</h1>
+        <p class="lead" id="hero-lead">
+          Motivated Systems & Application Engineer specializing in Linux distributions, secure hosting infrastructure, cPanel environments, and network analysis. Combining datacenter operations experience with active Bachelor SNE studies to deploy high-availability, secure solutions.
+        </p>
+        <div class="hero-actions" id="hero-actions-container">
+          <a href="./work.html" class="btn btn-primary" id="btn-view-work">View Projects ➔</a>
+          <a href="./contact.html" class="btn btn-secondary" id="btn-get-contact">Connect</a>
+        </div>
+      </div>
+      
+      <!-- Terminal Widget -->
+      <div class="terminal-wrapper fade-in-up active" id="terminal-widget">
+        <div class="terminal-header" id="term-header">
+          <div class="terminal-dots">
+            <span class="terminal-dot red"></span>
+            <span class="terminal-dot yellow"></span>
+            <span class="terminal-dot green"></span>
+          </div>
+          <div class="terminal-title">guest@ritesh-sewratan: ~</div>
+        </div>
+        <div class="terminal-body" id="terminal-screen">
+          <div class="terminal-line">Welcome to Ritesh's interactive shell profile!</div>
+          <div class="terminal-line">Type <span class="cmd-term">help</span> to see the list of available commands.</div>
+          <div class="terminal-line"><br></div>
+          <div class="terminal-line">
+            <span class="hl-term">$ neofetch</span><br>
+            <span class="primary-term">Ritesh Sewratan</span> @ DatacenterIT<br>
+            ---------------------------<br>
+            <span class="primary-term">OS:</span> AlmaLinux OS 9.4 (Suriname Commercial Datacenter VM)<br>
+            <span class="primary-term">Host:</span> Proxmox VE KVM Instance<br>
+            <span class="primary-term">Kernel:</span> 5.15.0-x86_64-generic<br>
+            <span class="primary-term">Uptime:</span> 2 years, 3 months, 15 days<br>
+            <span class="primary-term">Shell:</span> bash / sys-sh (v2.0-portfolio)<br>
+            <span class="primary-term">CPU:</span> Intel Xeon Gold 6230 (4 cores) @ 2.10GHz<br>
+            <span class="primary-term">RAM:</span> 8GB / 16GB (Allocated)<br>
+            <span class="primary-term">Certifications:</span> LPI (Certified), CEH (Expected June 2026)<br>
+            <span class="primary-term">Education:</span> UNASAT Bachelor SNE (2025-2029, in progress)
+          </div>
+          <div class="terminal-line"><br></div>
+          
+          <!-- Current Active Line -->
+          <div class="terminal-current-input-line terminal-line">
+            <span class="terminal-input-prompt"></span><span class="terminal-typed-text"></span><span class="terminal-cursor"></span>
+          </div>
+        </div>
+        <!-- Hidden input to capture keystrokes -->
+        <input type="text" class="terminal-hidden-input" autofocus id="hidden-shell-input" aria-label="Terminal Input Input">
+      </div>
+    </div>
+  </section>
+
+  <!-- Highlight Section: Who I Am & What I Do -->
+  <section class="section highlight-section" id="about-highlights">
+    <div class="container">
+      <h2>Core Competencies</h2>
+      <p class="competencies-intro" id="highlights-section-desc">
+        Equipped with direct experience in server administration, automation workflows, and proactive infrastructure monitoring.
+      </p>
+      
+      <div class="competencies-grid" id="highlights-grid">
+        <div class="competency-card fade-in-up" id="comp-linux">
+          <div class="competency-icon linux">🐧</div>
+          <h3 id="comp-linux-title">Linux Administration</h3>
+          <p class="competency-text">
+            Expertise in managing and optimizing Red Hat, Debian, CentOS, Ubuntu, Kali, AlmaLinux, and Rocky Linux. Focused on system security, package administration, and kernel configuration.
+          </p>
+        </div>
+        
+        <div class="competency-card fade-in-up" id="comp-network">
+          <div class="competency-icon network">🌐</div>
+          <h3 id="comp-network-title">Network & Web Services</h3>
+          <p class="competency-text">
+            Solid deployment of Nginx and Apache web servers, cPanel server controls, custom DNS routing configurations, SSL setups, and Wireshark/Nmap diagnostic investigations.
+          </p>
+        </div>
+
+        <div class="competency-card fade-in-up" id="comp-sec">
+          <div class="competency-icon sec">🛡️</div>
+          <h3 id="comp-sec-title">Automation & Security</h3>
+          <p class="competency-text">
+            Writing Ansible configurations for declarative automation, lightweight Python scripting, and preparing for security vulnerability operations (CEH pathway).
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Achievements / Projects Callout -->
+  <section class="section callout-section" id="recent-achievements">
+    <div class="container callout-content">
+      <h2 id="achievements-title">Real-World Project Deployments</h2>
+      <p class="callout-desc" id="achievements-desc">
+        Ritesh has coordinated critical government migrations and census implementation projects in Suriname, ensuring high stability and zero-downtime cutovers.
+      </p>
+      <div class="callout-actions" id="achievements-actions">
+        <a href="./work.html" class="btn btn-accent" id="btn-achievements-work">Explore eGov & CSweb Projects</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Global Footer -->
+  <footer class="footer" id="global-footer">
+    <div class="container footer-content">
+      <div class="footer-logo" id="footer-logo-brand">Ritesh<span>.sr</span></div>
+      <div class="footer-socials" id="footer-socials-list">
+        <a href="mailto:sewratanritesh6@gmail.com" class="footer-social-link" title="Email" id="footer-email-link">📧</a>
+        <a href="tel:+5978805892" class="footer-social-link" title="Phone" id="footer-phone-link">📞</a>
+        <a href="#" class="footer-social-link" title="LinkedIn" id="footer-linkedin-link">🔗</a>
+        <a href="#" class="footer-social-link" title="GitHub" id="footer-github-link">💻</a>
+      </div>
+      <div class="footer-copy" id="footer-copyright-text">
+        &copy; 2026 Ritesh Sewratan. Deployed via GitHub Pages. Paramaribo, Suriname.
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
